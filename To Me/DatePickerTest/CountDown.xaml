@@ -1,0 +1,48 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="DatePickerTest.CountDown"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!--ContentPanel - 在此处放置其他内容-->
+        <Grid x:Name="ContentPanel" Margin="10,10,14,-10" Grid.RowSpan="2" >
+            <Grid.Background>
+                <ImageBrush ImageSource="/Images/background.jpg"/>
+            </Grid.Background>
+
+
+            <TextBlock HorizontalAlignment="Left" Margin="24,114,0,0" TextWrapping="Wrap" Text="名称" VerticalAlignment="Top" FontSize="30" Foreground="Black"/>
+            <TextBox x:Name="countName" HorizontalAlignment="Left" Height="72" Margin="91,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="349"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,185,0,0" TextWrapping="Wrap" Text="倒计详情" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.483,-0.262" Foreground="Black"/>
+            <TextBox x:Name="countContent" HorizontalAlignment="Left" Height="210" Margin="24,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="384"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,465,0,0" TextWrapping="Wrap" Text="总次数 " VerticalAlignment="Top" FontSize="30" Foreground="Black"/>
+            <TextBox x:Name="allTime" HorizontalAlignment="Left" Height="72" Margin="148,451,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="27" Text="0"/>
+            <Button Content="+" HorizontalAlignment="Left" Margin="293,451,0,0" VerticalAlignment="Top" Width="68" Height="72" FontSize="20" FontWeight="Bold" Click="Button_Click_2" Foreground="Black" BorderBrush="White"/>
+            <Button Content="-" HorizontalAlignment="Left" Margin="352,451,0,0" VerticalAlignment="Top" Width="68" Height="72" FontSize="20" FontWeight="Bold" Click="Button_Click_3" Foreground="Black"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,546,0,0" TextWrapping="Wrap" Text="当前次数" VerticalAlignment="Top" Height="55" Width="120" FontSize="30" Foreground="Black"/>
+            <TextBox x:Name="curTime" HorizontalAlignment="Left" Height="72" Margin="149,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="27" Text="0"/>
+            <Button Content="+" HorizontalAlignment="Left" Margin="292,523,0,0" VerticalAlignment="Top" Width="68" Height="72" FontSize="20" FontWeight="Bold" RenderTransformOrigin="0.5,1.743" Click="Button_Click_4" Foreground="Black"/>
+            <Button Content="-" HorizontalAlignment="Left" Margin="352,523,0,0" VerticalAlignment="Top" Width="68" Height="72" FontSize="20" FontWeight="Bold" Click="Button_Click_5" Foreground="Black"/>
+        </Grid>
+        <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="41,665,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFC2A6B8" Height="70" Width="120" Grid.RowSpan="2"/>
+        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Right" Margin="0,665,55,0" VerticalAlignment="Top" Click="Button_Click_1" Background="#FF747A9A" Height="70" Width="120" Grid.RowSpan="2"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>

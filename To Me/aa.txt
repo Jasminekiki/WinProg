@@ -1,0 +1,4 @@
+ Microsoft.Phone.Tasks.SmsComposeTask sms = new Microsoft.Phone.Tasks.SmsComposeTask();
+            sms.To = "13672265138";
+            sms.Body = "你好啊，今天中午请我吃牛肉炒饭吗？";
+            sms.Show();  
