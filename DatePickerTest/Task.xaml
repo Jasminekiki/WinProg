@@ -1,0 +1,55 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    x:Class="DatePickerTest.Task"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <!--ContentPanel - 在此处放置其他内容-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,0,24,0">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Images/background.jpg"/>
+            </Grid.Background>
+
+            <TextBlock HorizontalAlignment="Left" Margin="26,51,0,0" TextWrapping="Wrap" Text="任务名" VerticalAlignment="Top" Height="43" Width="116" FontSize="30" Foreground="Black"/>
+            <TextBox x:Name="taskName" HorizontalAlignment="Left" Height="72" Margin="142,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" />
+            <TextBlock HorizontalAlignment="Left" Margin="20,118,0,0" TextWrapping="Wrap" Text="任务详情" VerticalAlignment="Top" Height="51" FontSize="30" Foreground="Black"/>
+            <TextBox x:Name="taskContent" HorizontalAlignment="Left" Height="206" Margin="20,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="402"/>
+            <TextBlock HorizontalAlignment="Left" Margin="22,397,0,0" TextWrapping="Wrap" Text="开始时间" VerticalAlignment="Top" FontSize="30" Foreground="Black"/>
+
+
+            <toolkit:DatePicker x:Name="beginDate" HorizontalAlignment="Left" Margin="151,385,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.513,1.014"/>
+            <toolkit:TimePicker x:Name="beginTime" HorizontalAlignment="Left" Margin="305,385,0,0" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="22,463,0,0" TextWrapping="Wrap" Text="结束时间" VerticalAlignment="Top" FontSize="30" Foreground="Black"/>
+            <toolkit:DatePicker x:Name="endDate" HorizontalAlignment="Left" Margin="151,453,0,0" VerticalAlignment="Top"/>
+            <toolkit:TimePicker x:Name="endTime" HorizontalAlignment="Left" Margin="305,453,0,0" VerticalAlignment="Top" Width="98"/>
+            <TextBlock HorizontalAlignment="Left" Margin="20,533,0,0" TextWrapping="Wrap" Text="提醒时间" VerticalAlignment="Top" CacheMode="BitmapCache" FontSize="30" Foreground="Black"/>
+            <toolkit:DatePicker x:Name="alarmDate" HorizontalAlignment="Left" Margin="151,517,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+            <toolkit:TimePicker x:Name="alarmTime" HorizontalAlignment="Left" Margin="305,517,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+            <toolkit:ToggleSwitch x:Name="alarmOn" HorizontalAlignment="Left" Margin="269,569,0,0" VerticalAlignment="Top" FontSize="30"  SwitchForeground="White" Foreground="Black" Content="否" Click="alarmOn_Click"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,594,0,0" TextWrapping="Wrap" Text="是否开启提醒功能" VerticalAlignment="Top" Foreground="Black" FontSize="30"/>
+            <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="43,669,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFC2A6B8" Height="70" Width="120"/>
+            <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Right" Margin="0,669,53,0" VerticalAlignment="Top" Click="Button_Click_1" Background="#FF747A9A" Height="70" Width="120"/>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
