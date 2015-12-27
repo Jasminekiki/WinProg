@@ -176,7 +176,7 @@ namespace DatePickerTest
 
                     Alarm alarm = new Alarm(name1);
                     alarm.Content = newClockItem.ClockName;
-                    string[] soundArray = { "/Ringtones/takeMe.mp3", "/Ringtones/littleApple.mp3", "/Ringtones/yiYongJun.mp3" };
+                    string[] soundArray = { "/Ringtones/TakeMe.mp3", "/Ringtones/PianAi.mp3", "/Ringtones/SweetThanFiction.mp3" };
                     alarm.Sound = new Uri(soundArray[newClockItem.MusicId], UriKind.Relative);
                     if (newClockItem.RepeatTime != 7)
                     {

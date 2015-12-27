@@ -1,5 +1,5 @@
-﻿<xapCache source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Bin\Release\DatePickerTest_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015/12/27 14:59:35">
-  <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\obj\Release\DatePickerTest.dll" archivePath="DatePickerTest.dll" lastWriteTime="2015/12/27 14:59:30" />
+﻿<xapCache source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Bin\Release\DatePickerTest_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015/12/27 15:49:39">
+  <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\obj\Release\DatePickerTest.dll" archivePath="DatePickerTest.dll" lastWriteTime="2015/12/27 15:49:34" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2015/1/15 0:38:12" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Assets\AppBar\add.png" archivePath="Assets\AppBar\add.png" lastWriteTime="2013/6/5 7:37:58" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Assets\AppBar\back.png" archivePath="Assets\AppBar\back.png" lastWriteTime="2013/6/5 7:37:58" />
@@ -29,15 +29,15 @@
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Images\main.jpg" archivePath="Images\main.jpg" lastWriteTime="2015/12/24 22:46:03" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Images\paper.jpg" archivePath="Images\paper.jpg" lastWriteTime="2015/12/24 22:09:25" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Images\welcom.png" archivePath="Images\welcom.png" lastWriteTime="2014/12/21 19:29:42" />
-  <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Ringtones\littleApple.mp3" archivePath="Ringtones\littleApple.mp3" lastWriteTime="2015/1/13 18:54:46" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="2015/1/13 17:05:54" />
+  <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Ringtones\SweeterThanFiction.mp3" archivePath="Ringtones\SweeterThanFiction.mp3" lastWriteTime="2015/12/27 15:35:02" />
+  <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Ringtones\PianAi.mp3" archivePath="Ringtones\PianAi.mp3" lastWriteTime="2015/12/27 15:38:19" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Sound\sound1.wav" archivePath="Sound\sound1.wav" lastWriteTime="2014/12/23 1:29:26" />
-  <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Ringtones\takeMe.mp3" archivePath="Ringtones\takeMe.mp3" lastWriteTime="2015/1/13 18:54:14" />
+  <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Ringtones\TakeMe.mp3" archivePath="Ringtones\TakeMe.mp3" lastWriteTime="2015/1/13 18:54:14" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Toolkit.content\AmCharts.Windows.QuickCharts.PieChart.24x24.png" archivePath="Toolkit.content\AmCharts.Windows.QuickCharts.PieChart.24x24.png" lastWriteTime="2015/12/27 5:58:04" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Toolkit.content\AmCharts.Windows.QuickCharts.SerialChart.24x24.png" archivePath="Toolkit.content\AmCharts.Windows.QuickCharts.SerialChart.24x24.png" lastWriteTime="2015/12/27 5:58:04" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Toolkit.content\ApplicationBar.Cancel.png" archivePath="Toolkit.content\ApplicationBar.Cancel.png" lastWriteTime="2014/12/21 21:24:38" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Toolkit.content\ApplicationBar.Check.png" archivePath="Toolkit.content\ApplicationBar.Check.png" lastWriteTime="2014/12/21 21:24:38" />
-  <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Ringtones\yiYongJun.mp3" archivePath="Ringtones\yiYongJun.mp3" lastWriteTime="2015/1/13 18:54:58" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2015/12/27 6:21:29" />
   <file source="C:\Users\Cao Qi\Desktop\To Me\DatePickerTest\Bin\Release\App.xaml.cs" archivePath="App.xaml.cs" lastWriteTime="2015/12/26 0:02:10" />
   <file source="C:\Users\Cao Qi\Desktop\C#\packages\amChartsQuickCharts.1.1\lib\sl3-wp\AmCharts.Windows.QuickCharts.WP.dll" archivePath="AmCharts.Windows.QuickCharts.WP.dll" lastWriteTime="2014/7/17 11:27:32" />

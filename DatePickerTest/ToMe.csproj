@@ -261,10 +261,11 @@
     <Content Include="Images\paper.jpg" />
     <Content Include="Images\tag.png" />
     <Content Include="Images\welcom.png" />
-    <Content Include="Ringtones\littleApple.mp3" />
     <Content Include="Microsoft.Phone.Controls.Toolkit.dll" />
+    <Content Include="Ringtones\SweeterThanFiction.mp3" />
+    <Content Include="Ringtones\PianAi.mp3" />
     <Content Include="Sound\sound1.wav" />
-    <Content Include="Ringtones\takeMe.mp3" />
+    <Content Include="Ringtones\TakeMe.mp3" />
     <Content Include="Toolkit.content\AmCharts.Windows.QuickCharts.PieChart.24x24.png" />
     <Content Include="Toolkit.content\AmCharts.Windows.QuickCharts.SerialChart.24x24.png" />
     <Content Include="Toolkit.content\ApplicationBar.Cancel.png">
@@ -273,7 +274,6 @@
     <Content Include="Toolkit.content\ApplicationBar.Check.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Ringtones\yiYongJun.mp3" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
