@@ -261,6 +261,7 @@
     <Content Include="Images\paper.jpg" />
     <Content Include="Images\tag.png" />
     <Content Include="Images\welcom.png" />
+    <Content Include="lib\AmCharts.Windows.QuickCharts.WP.dll" />
     <Content Include="Ringtones\littleApple.mp3" />
     <Content Include="Microsoft.Phone.Controls.Toolkit.dll" />
     <Content Include="Sound\sound1.wav" />

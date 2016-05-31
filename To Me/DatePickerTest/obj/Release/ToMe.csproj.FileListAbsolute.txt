@@ -113,3 +113,4 @@ C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\obj\Release\ToMe.c
 C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\obj\Release\DatePickerTest.dll
 C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\obj\Release\DatePickerTest.pdb
 C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\obj\Release\XapCacheFile.xml
+C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\AmCharts.Windows.QuickCharts.WP.dll
