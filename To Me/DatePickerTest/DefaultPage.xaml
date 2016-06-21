@@ -135,6 +135,7 @@
     </Grid>
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar BackgroundColor="#FF8EC3F2" Opacity="1">
+            <shell:ApplicationBarIconButton x:Name="back" IconUri="/Assets/AppBar/back.png" Text="Back" Click="Back_Click"/>
             <shell:ApplicationBarIconButton x:Name="edit" IconUri="/Assets/AppBar/edit.png" Text="Edit/View" Click="ModifyItem_Click"/>
             <shell:ApplicationBarIconButton x:Name="newItem" Text="New" IconUri="/Assets/AppBar/add.png" Click="Button_Click"/>
             <shell:ApplicationBarIconButton x:Name="delete" IconUri="/Assets/AppBar/delete.png"  Text="Delete" Click="DeleteItem_Click"/>

@@ -101,11 +101,62 @@
                 <ImageBrush ImageSource="/Images/main.jpg" Opacity="0.9"></ImageBrush>
             </Grid.Background>
             <Button  Content="Say to Me"  HorizontalAlignment="Left" Margin="219,610,0,0" VerticalAlignment="Top" Width="209" Height="100" FontSize="36" Click="Button_Click" FontFamily="Mistral" >
-
+            </Button>
+            <Button  Content="Upload"  HorizontalAlignment="Left" Margin="248,15,0,0" VerticalAlignment="Top" Width="180" Height="80" FontSize="25" Click="Upload_Click" FontFamily="Mistral" >
+            </Button>
+            <Button  Content="Download"  HorizontalAlignment="Left" Margin="248,95,0,0" VerticalAlignment="Top" Width="180" Height="80" FontSize="25" Click="Download_Click" FontFamily="Mistral" >
             </Button>
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="47,55,0,0" TextWrapping="Wrap" Text="Hi, " VerticalAlignment="Top" Foreground="#FF2C2C2A" FontSize="66.667" FontFamily="MV Boli" FontWeight="Bold"/>
 
+            <Grid x:Name="UploadPan" Canvas.ZIndex="1" Visibility="Collapsed">
+                <Rectangle Fill="Black" />
+                <Grid HorizontalAlignment="Stretch"
+                            VerticalAlignment="Top">
+                    <Rectangle Fill="#33000000"/>
+                    <StackPanel Margin="25">
+                        <TextBlock Foreground="White" Text="Input password for upload" FontSize="25"/>
+                        <TextBox x:Name="up_password" Margin="0,20,0,20"/>
+                        <TextBlock Foreground="White" Text="Choose the part to upload" FontSize="25"/>
+                        <toolkit:ListPicker ItemCountThreshold="4" Name="listpicker" >
+                            <toolkit:ListPickerItem Content="           Task" FontSize="30" HorizontalAlignment="Left"    Width="253"/>
+                            <toolkit:ListPickerItem Content="           Alarm" FontSize="30" HorizontalAlignment="Left"  Width="253"/>
+                            <toolkit:ListPickerItem Content="      CountDown" FontSize="30" HorizontalAlignment="Left"  Width="253" />
+                            <toolkit:ListPickerItem Content="           Diary" FontSize="30" HorizontalAlignment="Left" Width="253"/>
+                         
+                        </toolkit:ListPicker>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" Content="OK" Click="btnOk"/>
+                            <Button Grid.Column="1" Content="CANCEL" Click="onCancel"/>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </Grid>
 
+            <Grid x:Name="DownloadPan" Canvas.ZIndex="1" Visibility="Collapsed">
+                <Rectangle Fill="Black" />
+                <Grid HorizontalAlignment="Stretch"
+                            VerticalAlignment="Top">
+                    <Rectangle Fill="#33000000"/>
+                    <StackPanel Margin="25">
+                        <TextBlock Foreground="White" Text="Input id for download" FontSize="25"/>
+                        <TextBox x:Name="down_id" Margin="0,20,0,20"/>
+                        <TextBlock Foreground="White" Text="Input password for download" FontSize="25"/>
+                        <TextBox x:Name="down_password" Margin="0,20,0,20"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" Content="OK" Click="btnOk"/>
+                            <Button Grid.Column="1" Content="CANCEL" Click="onCancel"/>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </Grid>
         </Grid>
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28"/>
         <!--取消注释，以显示对齐网格，从而帮助确保

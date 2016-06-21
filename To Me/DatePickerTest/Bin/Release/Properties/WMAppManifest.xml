@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="zh-CN" />
   <App xmlns="" ProductID="{654d6a89-e126-460c-b8c2-fe12c150a319}" Title="ToMe" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="DatePickerTest author" Description="Sample description" Publisher="DatePickerTest" PublisherID="{3f53bc55-f70e-4805-b73a-05b5c3883839}">
     <IconPath IsRelative="true" IsResource="false">Images\tag.png</IconPath>
@@ -36,4 +36,4 @@
     </ScreenResolutions>
   </App>
 </Deployment>
-<!-- WPSDK Version 8.0.9900 -->
+<!-- WPSDK Version 8.1.15116 -->

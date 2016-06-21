@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JASMINE</Machine>
+    <WindowsUser>Cao Qi</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>654d6a89-e126-460c-b8c2-fe12c150a319</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\DatePickerTest.dll">
+      <PackagePath>DatePickerTest.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\lib\AmCharts.Windows.QuickCharts.WP.dll">
+      <PackagePath>AmCharts.Windows.QuickCharts.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\Microsoft.Expression.Interactions.dll">
+      <PackagePath>Microsoft.Expression.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Microsoft.Phone.Controls.Toolkit.dll">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.dll">
+      <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.Phone.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.Phone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Newtonsoft.Json.8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\PCLStorage.1.0.2\lib\wp8\PCLStorage.Abstractions.dll">
+      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\PCLStorage.1.0.2\lib\wp8\PCLStorage.dll">
+      <PackagePath>PCLStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\System.Windows.Interactivity.dll">
+      <PackagePath>System.Windows.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\de\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>de\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\en\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>en\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\es\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>es\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\fr\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>fr\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\it\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>it\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\ja\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>ja\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\ko\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>ko\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\ru\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>ru\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Expression.Interactions.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\de\System.Windows.Interactivity.resources.dll">
+      <PackagePath>de\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\en\System.Windows.Interactivity.resources.dll">
+      <PackagePath>en\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\es\System.Windows.Interactivity.resources.dll">
+      <PackagePath>es\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\fr\System.Windows.Interactivity.resources.dll">
+      <PackagePath>fr\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\it\System.Windows.Interactivity.resources.dll">
+      <PackagePath>it\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\ja\System.Windows.Interactivity.resources.dll">
+      <PackagePath>ja\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\ko\System.Windows.Interactivity.resources.dll">
+      <PackagePath>ko\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\ru\System.Windows.Interactivity.resources.dll">
+      <PackagePath>ru\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll">
+      <PackagePath>zh-Hans\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll">
+      <PackagePath>zh-Hant\System.Windows.Interactivity.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.xml">
+      <PackagePath>Microsoft.Threading.Tasks.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.xml">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Bcl.Async.1.0.168\lib\wp8\Microsoft.Threading.Tasks.Extensions.Phone.xml">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.Phone.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Newtonsoft.Json.8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\PCLStorage.1.0.2\lib\wp8\PCLStorage.xml">
+      <PackagePath>PCLStorage.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\PCLStorage.1.0.2\lib\wp8\PCLStorage.Abstractions.xml">
+      <PackagePath>PCLStorage.Abstractions.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.xml">
+      <PackagePath>System.Net.Http.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml">
+      <PackagePath>System.Net.Http.Extensions.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml">
+      <PackagePath>System.Net.Http.Primitives.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\add.png">
+      <PackagePath>Assets\AppBar\add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\back.png">
+      <PackagePath>Assets\AppBar\back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\bg.png">
+      <PackagePath>Assets\AppBar\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\bg2.png">
+      <PackagePath>Assets\AppBar\bg2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\bg3.png">
+      <PackagePath>Assets\AppBar\bg3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\black.png">
+      <PackagePath>Assets\AppBar\black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\delete.png">
+      <PackagePath>Assets\AppBar\delete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\edit.png">
+      <PackagePath>Assets\AppBar\edit.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\play.png">
+      <PackagePath>Assets\AppBar\play.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\a.png">
+      <PackagePath>Images\a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\b.png">
+      <PackagePath>Images\b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\bk2.png">
+      <PackagePath>Images\bk2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\c.png">
+      <PackagePath>Images\c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\d.png">
+      <PackagePath>Images\d.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\e.png">
+      <PackagePath>Images\e.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\tag.png">
+      <PackagePath>Images\tag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\welcom.png">
+      <PackagePath>Images\welcom.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Toolkit.content\AmCharts.Windows.QuickCharts.PieChart.24x24.png">
+      <PackagePath>Toolkit.content\AmCharts.Windows.QuickCharts.PieChart.24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Toolkit.content\AmCharts.Windows.QuickCharts.SerialChart.24x24.png">
+      <PackagePath>Toolkit.content\AmCharts.Windows.QuickCharts.SerialChart.24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Toolkit.content\ApplicationBar.Cancel.png">
+      <PackagePath>Toolkit.content\ApplicationBar.Cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Toolkit.content\ApplicationBar.Check.png">
+      <PackagePath>Toolkit.content\ApplicationBar.Check.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Assets\AppBar\bg123.jpg">
+      <PackagePath>Assets\AppBar\bg123.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\Default.jpg">
+      <PackagePath>Images\Default.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\Default2.jpg">
+      <PackagePath>Images\Default2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\background.jpg">
+      <PackagePath>Images\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\main.jpg">
+      <PackagePath>Images\main.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Images\paper.jpg">
+      <PackagePath>Images\paper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\lib\AmCharts.Windows.QuickCharts.WP.dll">
+      <PackagePath>lib\AmCharts.Windows.QuickCharts.WP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Ringtones\littleApple.mp3">
+      <PackagePath>Ringtones\littleApple.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Ringtones\takeMe.mp3">
+      <PackagePath>Ringtones\takeMe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Ringtones\yiYongJun.mp3">
+      <PackagePath>Ringtones\yiYongJun.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Sound\sound1.wav">
+      <PackagePath>Sound\sound1.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cao Qi\Documents\GitHub\WinProg\To Me\DatePickerTest\Bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

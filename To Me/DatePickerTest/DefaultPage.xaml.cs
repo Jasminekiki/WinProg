@@ -294,6 +294,11 @@ namespace DatePickerTest
                }
        */
 
+
+       private void Back_Click(object sender, EventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/MainPage.xaml?str=haha", UriKind.Relative));
+        }
         private void ModifyItem_Click(object sender, EventArgs e)
         {
             if (this.ListPicker1.SelectedIndex == 0)
